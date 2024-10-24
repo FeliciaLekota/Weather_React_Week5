@@ -1,0 +1,125 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #8fbfea, #adeff2);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.container {
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Subtle border */
+  background-color: #f5f5f5; /* Light container background */
+  padding: 30px;
+  border-radius: 15px; /* Rounded corners for a modern look */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  max-width: 400px;
+}
+
+.SearchEngine {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.search {
+  padding: 12px 20px;
+  width: 250px; /* Slightly smaller width */
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.searchBtn {
+  padding: 12px 20px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.searchBtn:hover {
+  background-color: #ff4757;
+  transform: translateY(-3px); /* Slight lift on hover */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+}
+
+.cityTemp {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.city {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+  color: #333; /* Darker color for better contrast */
+}
+
+.date {
+  font-size: 18px;
+  color: #666; /* Slightly darker date text */
+  margin: 5px 0;
+}
+
+.description {
+  font-size: 20px;
+  color: #7f8c8d; /* Neutral grey for description */
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.Temp {
+  font-size: 72px;
+  font-weight: 700;
+  display: inline-block;
+  margin: 10px 0;
+  color: #ffeaa7;
+}
+
+span {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  color: #dfe6e9;
+}
+
+.HumWind {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.Humidity,
+.wind {
+  font-size: 18px;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.2
+  ); /* Darker background for better text visibility */
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #f5f5f5; /* Lighter text for contrast */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
